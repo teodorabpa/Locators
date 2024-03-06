@@ -1,0 +1,63 @@
+Element	
+Xpath Locator 	
+CSS
+
+1	Skillo image in header	
+//img[@id='homeIcon']	
+#homeIcon
+
+2	Home link in header	
+//a[@id='nav-link-home']	
+#nav-link-home
+
+3	Login link in header	
+//a[@class='nav-link']	
+a.nav-link
+
+4	Sign in	
+//p[@class= 'h4 mb-4']	
+p.h4.mb-4
+
+5	Username or email	
+//input[@id='defaultLoginFormUsername']	
+#defaultLoginFormUsername
+
+Username or email by name	
+//input[@name='usernameOrEmail']	
+
+6	Password	
+//input[@id='defaultLoginFormPassword']	
+#defaultLoginFormPassword
+
+7	Remember me checkbox	
+//input[@class='remember-me-button ng-untouched ng-pristine ng-valid']	
+input.remember-me-button.ng-untouched.ng-pristine.ng-valid
+
+8	Remember me text	
+//div[@class = 'remember-me']	
+div.remember-me
+
+9	Sign in button	
+//button[@id='sign-in-button']	
+#sign-in-button
+
+10	Sign in button by class	
+//button[@class='my-4 btn btn-primary']	
+button.my-4.btn.btn-primary
+
+11	Not a member text	
+//p[@class='register-section']	
+p.register-section
+
+12	Register	
+//a[@href='/users/register']	
+
+13	Version in footer	
+//*[contains(text(),'Version: 2020')]	
+
+14	Technologies	
+//*[contains(text(),'Technologies')]
+	
+15	Logo 1	//img	
+16	Logo 2	//img	
+17	Logo 3	//img	
